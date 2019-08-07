@@ -1,0 +1,39 @@
+$mainColor: #4d138c;
+$mainFont: 'Roboto',
+sans-serif;
+
+//styles
+
+//nav
+#navigation {
+    background: $mainColor;
+    height: 80px;
+
+
+    #logo {
+        display: inline;
+        padding: 0;
+
+        img {
+            width: 88px;
+            height: 25px;
+        }
+    }
+
+    ul {
+        border: 1px solid red;
+        padding: 25px 0;
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    li {
+        display: inline;
+        padding: 15px;
+    }
+
+    .navBtns {
+        color: white;
+
+    }
+}

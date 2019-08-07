@@ -1,0 +1,31 @@
+#navigation {
+  background: #4d138c;
+  height: 80px;
+}
+
+#navigation #logo {
+  display: inline;
+  padding: 0;
+}
+
+#navigation #logo img {
+  width: 88px;
+  height: 25px;
+}
+
+#navigation ul {
+  border: 1px solid red;
+  padding: 25px 0;
+  width: 960px;
+  margin: 0 auto;
+}
+
+#navigation li {
+  display: inline;
+  padding: 15px;
+}
+
+#navigation .navBtns {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
