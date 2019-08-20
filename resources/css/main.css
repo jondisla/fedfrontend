@@ -1,11 +1,16 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 #navigation {
+  font-size: 15px;
   background: #4d138c;
   height: 80px;
 }
 
 #navigation #logo {
   display: inline;
-  padding: 0;
+  padding: 0 40px 0 0;
 }
 
 #navigation #logo img {
@@ -14,7 +19,6 @@
 }
 
 #navigation ul {
-  border: 1px solid red;
   padding: 25px 0;
   width: 960px;
   margin: 0 auto;
@@ -27,5 +31,108 @@
 
 #navigation .navBtns {
   color: white;
+}
+
+#navigation i {
+  font-size: 20px;
+  font-weight: 500px !important;
+}
+
+#navigation #signUp {
+  padding: 0 0 0 50px;
+}
+
+.homeBanner {
+  background: url("https://www.ttnews.com/sites/default/files/images/articles/fedex-van-1200.jpg") no-repeat center;
+  background-size: cover;
+  height: 450px;
+}
+
+.homeBanner .content {
+  padding: 30px 0 40px;
+  width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.homeBanner .content h1 {
+  color: white;
+  font-size: 55px;
+  padding: 20px 0;
+}
+
+.homeBanner .content .services {
+  padding: 0px;
+}
+
+.homeBanner .content .services li {
+  background: white;
+  display: inline-block;
+  text-align: center;
+  width: 155px;
+  height: 130px;
+  padding: 30px 0;
+  font-size: 18px;
+  margin: -2px;
+}
+
+.homeBanner .content .services li:nth-of-type(2) {
+  background: #4d138c;
+  height: 145px;
+  line-height: 35px;
+  color: white;
+}
+
+.homeBanner .searchBar {
+  width: 590px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.homeBanner .searchBar .trackSearch {
+  width: 79%;
+  height: 100%;
+  padding: 0px 20px;
+}
+
+.homeBanner .searchBar .trackBtn {
+  background: #FF690B;
+  border: 0;
+  width: 20%;
+  height: 100%;
+  color: white;
+}
+
+.homeBanner .searchBar .trackHelp {
+  color: white;
+}
+
+.enroll-section .container .enroll-row {
+  padding: 65px 0;
+}
+
+.enroll-section .container .enroll-row .column {
+  padding: 0 100px 0 20px;
+}
+
+.enroll-section .container .enroll-row h3 {
+  padding: 35px 0 30px 0;
+}
+
+.enroll-section .container .enroll-row p {
+  font-size: 18px;
+}
+
+.enroll-section .container .enroll-row img {
+  width: 415px;
+  height: 260px;
+}
+
+.enroll-section .container .enroll-row #enroll-btn {
+  border-radius: 50px;
+  width: 190px;
+  height: 60px;
+  border: 2px solid blue;
+  color: blue;
 }
 /*# sourceMappingURL=main.css.map */

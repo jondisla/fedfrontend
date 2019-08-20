@@ -20,7 +20,7 @@
 </head>
 
 <body>
-
+    <!-- NAV -->
     <div id="navigation">
         <ul>
             <li id="logo"><img src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" alt="">
@@ -30,9 +30,51 @@
             <li class="navBtns">Printing Services <i class="fas fa-angle-down navArrow"></i></li>
             <li class="navBtns">Locations <i class="fas fa-angle-down navArrow"></i></li>
             <li class="navBtns">Support <i class="fas fa-angle-down navArrow"></i></li>
-            <li class="navBtns">Sign Up or Login <i class="far fa-user-circle fa-lg"></i></li>
-            <li class="navBtns"><i class="fas fa-search fa-lg"></i></li>
+            <li class="navBtns" id="signUp">Sign Up or Login <i class="far fa-user-circle"></i></li>
+            <li class="navBtns"><i class="fas fa-search"></i></li>
         </ul>
+    </div>
+
+    <!-- Home Banner -->
+    <div class="wrapper homeBanner">
+        <div class="container">
+            <div class="content">
+                <h1>Welcome to Fedex</h1>
+                <ul class="services">
+                    <li><i class="fa fa-calculator"></i><br>RATE & SHIP</li>
+                    <li><i class="fa fa-search"></i><br>TRACK</li>
+                    <li><i class="fa fa-map-marker"></i><br>LOCATIONS</li>
+                </ul>
+            </div>
+            <div class="searchBar">
+                <input type="text" placeholder="TRACKING ID" class="trackSearch">
+                <button class="trackBtn">TRACK</button>
+                <div class="trackHelp">
+                    <span>MULTIPLE TRACKING NUMBERS | NEED HELP?</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- First Section -->
+    <div class="enroll-section">
+        <div class="container">
+            <div class="row enroll-row">
+                <div class="column col-lg-6 col-md-6">
+                    <h3>Finish signing up to save.</h3>
+                    <p>Complete your FedEx account today to start saving up to 16% on eligible services, plus, enjoy
+                        free
+                        shipping supplies.</p>
+                    <button id="enroll-btn">
+                        START SAVING
+                    </button>
+                </div>
+                <div class="column col-lg-6 col-md-6">
+                    <img src="https://www.fedex.com/content/dam/fedex/us-united-states/Testing/images/2019/Q1/oadr_abandon_busines_EFg3G_do_not_delete_1926697668.jpg"
+                        alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer>
@@ -40,13 +82,13 @@
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
+            </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
             integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
+            </script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
+            </script>
     </footer>
 </body>
 
